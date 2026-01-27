@@ -8,7 +8,7 @@
 ---
 **VARIABLES**
 
-**int** - models arithmetic integers 
+**int** - models arithmetic integer 
 
 ```java
 int numberOflegs = 8
