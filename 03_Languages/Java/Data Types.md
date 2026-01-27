@@ -13,12 +13,20 @@
 ```java
 int numberOflegs = 8
 ```
+---
 
-**float** - Decimals
-
+**float** -  ( floating-point number)
 ```java
 float NumberOflegs=0.04
 ```
+**The Solution:** A "Floating" point. The decimal point can "float" left or right, allowing the computer to represent very large numbers (like the distance to a star) and very tiny numbers (like the width of an atom) using the same number of bits.
+
+- **Infinity:** Exponent is all 1s, Mantissa is all 0s.
+    
+- **NaN (Not a Number):** Exponent is all 1s, Mantissa is **not** 0
+
+
+---
 
 **Boolean** - True/False 
 
@@ -29,67 +37,3 @@ boolean isCloudOutside = true;
 boolean tempetureIsBelowFreesing = false;
 ```
 
-!b - the opposite
-
-1. ### Question 1
-    
-    1 Point
-    
-    Question 1
-    
-    Select those statements that are correct
-    
-    - ---
-        
-        a + b can never overflow if a and b are strictly less than Integer.MAX_VALUE
-        
-    - ---
-        
-        a + (-a) can never overflow or underflow
-        
-        Selected
-    - ---
-        
-        a + (-a) can not overflow if a is positive
-        
-        Selected
-    - ---
-        
-        a/b can never overflow if b is greater than 0.
-        
-    
-    Select up to 4 options
-    
-2. Question 2
-    
-    ### Question 2
-    
-    1 Point
-    
-    Question 2
-    
-    Select those statements that are correct
-    
-    - ---
-        
-        If f1 and f2 are floats and f2 > 0, then f1 + f2 > f1
-        
-    - ---
-        
-        Float.POSITIVE_INFINITY - Float.POSITIVE_INFINITY = 0
-        
-    - ---
-        
-        If f1 and f2 are floats and f1 is infinite, then f1 + f2 is infinite.
-        
-    - ---
-        
-        Float.POSITIVE_INFINITY - Float.POSITIVE_INFINITY = Float.NaN
-        
-    - ---
-        
-        Float.NaN * 0 = 0
-        
-    - ---
-        
-        Float.NaN * 0 = Float.NaN
