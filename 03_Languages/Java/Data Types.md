@@ -3,8 +3,6 @@
 
 
 
-
-
 ---
 **VARIABLES**
 
@@ -37,3 +35,37 @@ boolean isCloudOutside = true;
 boolean tempetureIsBelowFreesing = false;
 ```
 
+**aa == b** if a equals b  
+
+**a != b** if a is not equal to b.  
+
+**a < b** if a is strictly less than b  
+
+**a <= b** is a is less than or equal to b 
+
+**a > b** if a is strictly greater than b  
+
+**a >= b** if a is greater than or equal to b
+
+**in**t a = Integer.MAX_VALUE;
+
+**int b** = Integer.MIN_VALUE;  
+
+**boolean c** = a + b > 0; False!  
+
+**boolean d** = c || a + b < 0; True!  
+
+**boolean e** = b <= a && (a + b < 0 || !(a == b)); True!
+
+---
+**Float**
+
+int a = Float.NaN;  
+
+int b = 3.5f;  
+
+boolean c = a + b > 0; False!  
+
+boolean d = c || a + b < 0; False!  
+
+boolean e = b <= a && (a + b < 0 || !(a == b)); False!
