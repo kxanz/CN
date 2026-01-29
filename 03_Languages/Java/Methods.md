@@ -41,3 +41,28 @@ public static void main (String[] args){
 a = 10
 ```
 
+**Ex 3:**
+---
+```java
+public static in f(int x, int y){
+	int = 7;
+	return y*x + a; 
+}
+```
+```java
+public static int g (int w){
+	int a = f( w , 3 );
+	return a - w;
+}
+```
+```java
+public static void main(String[] args) {
+	int a = 3;
+	int b = g(a);
+	System.out.println("b =" + b )
+}
+ ```
+```java
+a = 3, b = 13
+```
+

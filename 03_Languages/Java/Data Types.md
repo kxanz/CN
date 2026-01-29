@@ -35,6 +35,8 @@ boolean isCloudOutside = true;
 boolean tempetureIsBelowFreesing = false;
 ```
 
+**if you only you one "=" your are establishing a variable**
+
 **aa == b** if a equals b  
 
 **a != b** if a is not equal to b.  
@@ -47,15 +49,15 @@ boolean tempetureIsBelowFreesing = false;
 
 **a >= b** if a is greater than or equal to b
 
-**in**t a = Integer.MAX_VALUE;
+int a = Integer.MAX_VALUE;
 
-**int b** = Integer.MIN_VALUE;  
+int b = Integer.MIN_VALUE;  
 
-**boolean c** = a + b > 0; False!  
+boolean c = a + b > 0; False!  
 
-**boolean d** = c || a + b < 0; True!  
+boolean d = c || a + b < 0; True!  
 
-**boolean e** = b <= a && (a + b < 0 || !(a == b)); True!
+boolean e = b <= a && (a + b < 0 || !(a == b)); True!
 
 ---
 **Float**
