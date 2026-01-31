@@ -16,7 +16,7 @@ public static int f (int x) {
 	return 3*x +1;
 }
 ```
-**Ex 1:**
+**Ex 1**
 ---
 ```java
 public static void main (String[] args){
