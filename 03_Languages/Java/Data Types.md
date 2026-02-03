@@ -71,3 +71,5 @@ boolean c = a + b > 0; False!
 boolean d = c || a + b < 0; False!  
 
 boolean e = b <= a && (a + b < 0 || !(a == b)); False!
+
+**Remeber that the numbr overflows when is MAX.VALUE and you add 1 number it will overflow to a negative**
