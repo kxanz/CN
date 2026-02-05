@@ -1,18 +1,20 @@
 **IEEE 754 Standard**
 
-
-
-
+Variables
 ---
-**VARIABLES**
-
+**Integer**
+---
 **int** - models arithmetic integer 
+- Java stores integers in 32 bits, 
+
 
 ```java
 int numberOflegs = 8
 ```
----
 
+
+Float
+---
 **float** -  ( floating-point number)
 ```java
 float NumberOflegs=0.04
@@ -23,7 +25,21 @@ float NumberOflegs=0.04
     
 - **NaN (Not a Number):** Exponent is all 1s, Mantissa is **not** 0
 
+What is the result of 10000000f * 10000000f? **1.0E14**  
 
+What is the result of 100000000000000000000f X 00000000000000000000f?  
+**Infinity**  
+
+What is the result of 100000000000000000000f -100000000000000000000f?  
+-**Infinity**  
+
+What is the result of Float.POSITIVE_INFINITY * Float.POSITIVE_INFINITY  
+**Infinity**  
+
+What is the result of Float.POSITIVE_INFINITY   Float.NEGATIVE_INFINITY?  
+-**Infinity**
+
+Boolean
 ---
 
 **Boolean** - True/False 

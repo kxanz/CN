@@ -7,6 +7,11 @@ G( x , y ) = y^2
 
 f( 2, 3.5 ) = 3.5^2 = 12.25
 
+```java
+public static void (String[]args) {
+}
+```
+
 ---
 
 **Java method declaration**
